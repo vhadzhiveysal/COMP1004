@@ -1,0 +1,160 @@
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.top-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.top-list li {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title {
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+
+.nav-button {
+    background-color: cadetblue;
+}
+
+.nav-button button {
+    background-color: aliceblue;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+
+.top-list li:first-child {
+    margin-right: auto;
+}
+
+.top-list li:last-child {
+    margin-left: auto;
+}
+
+form {
+    max-width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 0px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+form button {
+    background-color: aliceblue;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 35%;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color:greenyellow;
+}
+
+#contactList div {
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    max-width: 20%;
+}
+
+#contactList div button {
+    background-color: aliceblue;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
+
+#main #downloadDiv {
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    max-width: 20%;
+}
+
+#main a {
+    background-color: aliceblue;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#fileInput {
+    margin: 10px;
+}
+
+/*
+#fileInput::-webkit-file-upload-button {
+    visibility: hidden;
+}
+#fileInput::before {
+    content: "Input Contacts JSON File";
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+*/
