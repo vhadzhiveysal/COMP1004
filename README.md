@@ -28,3 +28,13 @@ A button that the user can click to download a .json file consisting of the cont
 Upload Contacts File
 A file input that the user can input .json files consisting of an edited contacts array for the SPA to save into the app and display the contact data from the .json file
 ```
+
+**How to run**
+```
+1. Ensure you have Visual Studio Code installed.
+2. Ensure you have the 'Live Server' extension installed by Ritwick Dey (purple frequency waves logo)
+3. Open the `comp1004 spa` folder in VSC.
+4. Right click the .html file inside the explorer, and click 'Open with Live Server'
+
+A new window/page should pop up with the app running.
+```
