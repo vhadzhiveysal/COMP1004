@@ -230,8 +230,6 @@ function handleFormSubmit(event) {
     //runs addContact() function, basically pushes the new contact to the array and saves it to localStorage
     addContact(contact);
 
-    console.log("Contact added:", contact);
-    console.log(contacts);
     event.target.reset();
 
     changeContent('list');
